@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link href="CSS/product.css" rel="stylesheet">
+<title>Insert product record</title>
+</head>
+<body>
+	<form action="save-record" method="post">
+		<table class="tb">
+			<tr>
+				<td><label class="la">Enter product id:</label></td>
+				<td><input type="text" name="id" required class="tdi"></td>
+			</tr>
+			<tr>
+				<td><label class="la">Enter product name:</label></td>
+				<td><input type="text" name="name" required class="tdi"></td>
+			</tr>
+			<tr>
+				<td><label class="la">Enter product brand:</label></td>
+				<td><select name="brand" class="tdi">
+						<option value="Hp">Hp</option>
+						<option value="Dell">Dell</option>
+						<option value="Acer">Acer</option>
+						<option value="Lenovo">Lenovo</option>
+						<option value="Logitech">Logitech</option>
+						<option value="Apple">Apple</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td><label class="la">Enter product price:</label></td>
+				<td><input type="text" name="price" required class="tdi"></td>
+			</tr>
+			<tr>
+				<td class="td" colspan="2" align="right"><button class="bt">save
+						record</button></td>
+			</tr>
+		</table>
+		<br>
+		<br>
+		<div class="dv">
+		<a class="an" href="/product-management/navbar.html">Home</a>
+		</div>
+	</form>
+</body>
+</html>
